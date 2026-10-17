@@ -1,1 +1,1 @@
-# Ai
+Termux AI
