@@ -1,1 +1,1 @@
-Termux AI
+Termux AI it is connected to the http://ollama.com username dalekrobi
