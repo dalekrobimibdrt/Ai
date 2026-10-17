@@ -15,6 +15,11 @@
 *.exe
 
 # DUB
+ollama pull llama3.2
+echo "FROM llama3.2" >> Modelfile
+echo "SYSTEM You are a friendly assistant." >> Modelfile
+ollama create -f Modelfile dalekrobi/TermuxAi
+ollama push dalekrobi/TermuxAi
 .dub
 docs.json
 
